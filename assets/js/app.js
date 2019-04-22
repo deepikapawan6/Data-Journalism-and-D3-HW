@@ -77,7 +77,9 @@ d3.csv("assets/data/data.csv")
       return d.abbr;
     })
     .style("font-size", "10px")
-    .style("text-anchor","middle");
+    .style("text-anchor","middle")
+    .style("fill", "black")
+    .style("font-weight","bold");
     
 
 
